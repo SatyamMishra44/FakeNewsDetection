@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.result.true {
+  color: green;
+  background-color: #eaffea;
+}
+
+.result.false {
+  color: red;
+  background-color: #ffeaea;
+}
